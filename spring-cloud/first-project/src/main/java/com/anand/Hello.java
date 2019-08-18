@@ -4,7 +4,7 @@ import java.util.function.Function;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("hello")
 public class Hello implements Function<String,String>{
 
 	public String apply(String t) {

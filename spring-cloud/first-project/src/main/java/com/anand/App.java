@@ -15,13 +15,13 @@ public class App {
 		return ()->"Hello";
 	}
 	
-	/*@Bean
+	@Bean
 	public Consumer<String> consume(){
 		return input->{
 			System.out.println("Hii , "+input);
 		};
-	}*/
-	
+	}
+	 
 	
 	public static void main(String[] args) {
 
